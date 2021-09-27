@@ -1,0 +1,199 @@
+body {
+    background-color: black;
+    display: block;
+}
+
+h2, h3, h3, h4, h5, footer, .more {
+    font-family: 'Rubik Mono One', sans-serif;
+    letter-spacing: 1px;
+}
+
+p {
+    padding: 5px;
+}
+
+#about, #songs, #wattpad {
+    background-color: rgb(48, 47, 47);
+    padding: 15px 0;
+    margin-top: 35px;
+    color: white;
+}
+
+#news, #member, #videos, #fivesosfam {
+    background-color: rgb(0, 0, 0);
+    padding: 15px 0;
+    margin-top: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.member, .abouttt, .mv, .more, .album, .fivesosfam, .card {
+    margin-top: 30px;
+} 
+
+.more:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+
+
+/* Navbar */
+.navbar-color {
+    background-color: rgb(5, 4, 1);
+}
+
+header nav ul {
+    margin-left: 15px;
+}
+
+header nav ul li a {
+    color: white;
+}
+
+header nav ul li a:hover {
+    color: yellow;
+}
+
+.nav-link {
+    margin-right: 30px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.animate__slideInLeft, .animate__slideInDown, .animate__slideInRight {
+    animation-duration: 2s;
+}
+
+
+
+/* News, About, Member (Modal), Songs, Wattpad*/
+.card {
+    border: transparent;
+}
+
+.card-text {
+    margin-top: 5px;
+}
+
+.abouttt, .newstext {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a img:hover {
+    color: black;
+    opacity: 50%;
+}
+
+.album img:hover {
+    color: black;
+    opacity: 50%;
+}
+
+.modal-content {
+    border: transparent;
+    background-color: rgb(48, 47, 47) ;
+}
+
+.modal-body {
+    margin: 20px;
+}
+
+.facts {
+    margin-top: 15px;
+}
+
+iframe {
+    margin-top: 30px;
+}
+
+.wattpad {
+    margin-left: 20px;
+}
+
+
+
+
+/* Form */
+.socmed {
+    margin-top: 50px;
+}
+
+i {
+    margin-left: 5px;
+    color: white;
+}
+
+i:hover {
+    color: grey;
+}
+
+form {
+    padding: 50px;
+}
+
+form, .tanggal {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.form-check {
+    margin-top: 20px;
+}
+
+.btn {
+    background: rgb(53, 52, 52); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, rgb(114, 87, 87), yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, rgb(114, 87, 87), yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgb(114, 87, 87), yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgb(114, 87, 87), yellow); /* Standard syntax */
+    border-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+
+/* Footer */
+#footer {
+    display: block;
+    background: rgb(0, 0, 0);
+    margin-top: 50px;
+    height: 50px;
+    padding: 1px;
+    clear: both;
+    font-size: 12px;
+}
+
+
+
+/* Selection */
+::-moz-selection {  
+    background: #f0d018;
+    color: #fff;
+}
+
+::selection {     
+    background:#f0d018;
+    color: #fff;
+}
+
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    height:12px;
+    width: 13px;
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #f0d018;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
