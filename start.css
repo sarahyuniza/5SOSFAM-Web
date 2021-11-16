@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Font */
+@font-face {
+    font-family: "Poppins-SemiBold"; 
+    src: url(assets/font/Poppins-SemiBold.otf);
+}
+
+@font-face {
+    font-family: "MonumentExtended";
+    src: url(assets/font/MonumentExtended-Regular.otf);
+}
+
+body {
+    background: url(assets/image/5sos.jpg);
+    background-size: cover;
+}
+
+.container {
+    background: border-box;
+    border-color: transparent;
+    max-width: 1400px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.content {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20%;
+}
+
+
+/* Explore 5SOS Button */
+.button {
+    background: rgb(53, 52, 52); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, rgb(114, 87, 87), yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, rgb(114, 87, 87), yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgb(114, 87, 87), yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgb(114, 87, 87), yellow); /* Standard syntax */
+    border-color: black;
+    border-radius: 20px;
+    padding: 15px;
+    color: black;
+    font-family: "Poppins-SemiBold";
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.button:hover {
+    color: white;
+}
+
+/* Welcome to 5SOSFAM text */
+h1 {
+    color: white;
+    margin-bottom: 50px;
+    font-family: "MonumentExtended";
+    letter-spacing: 4px;
+}
+
+.animate__backInDown {
+    animation-duration: 4s;
+}
+
+
+/* Selection */
+::-moz-selection {  
+    background: #f0d018;
+    color: #fff;
+}
+::selection {     
+    background:#f0d018;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
